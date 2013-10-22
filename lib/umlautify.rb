@@ -2,6 +2,12 @@ require "umlautify/version"
 
 module Umlautify
   class << self
+    # Add umlauts to a string!
+    #
+    # Example:
+    #  >> Umlautify.do("This string could use umlauts.")
+    #  => "Thïs strïng cöüld üsë ümläüts."
+   
     def do(string)
       umlaut_map = { "A" => "\u00C4", "E" => "\u00CB", "I" => "\u00CF",
     		             "O" => "\u00D6", "U" => "\u00FC", "Y" => "\u0178",
