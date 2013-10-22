@@ -1,6 +1,6 @@
 # Umlautify
 
-TODO: Write a gem description
+A port of the perl umlautify module.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    Umlautify.do("Add umlauts to your string.")
 
 ## Contributing
 
