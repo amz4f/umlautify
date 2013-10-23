@@ -1,6 +1,6 @@
-# Umlautify
+# Acme::Umlautify
 
-A port of the perl umlautify module.
+A port of Philip Pollard's perl umlautify module. It will add umlauts to everything, now including the capital Y!
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-    Umlautify.do("Add umlauts to your string.")
+    "Yes, Loincloth rocks!".umlautify!
+    => "Ÿës, Löïnclöth röcks!" 
+
+
 
 ## Contributing
 
