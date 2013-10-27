@@ -18,9 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-    "Yes, Loincloth rocks!".umlautify!
-    => "Ÿës, Löïnclöth röcks!" 
+    "Yes, Loincloth rocks!".umlautify! # modifies in place
+    => "Ÿës, Löïnclöth röcks!"
 
+    "But no umlaut n in 'Spinal Tap'".umlautify # returns a copy
+    => "Büt nö ümläüt n ïn 'Spïnäl Täp'" 
 
 
 ## Contributing
